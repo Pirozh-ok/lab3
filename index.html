@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск вакансий</title>
+</head>
+
+<body>
+<style>
+    .btn_search {
+        height: 40px;
+        width: 100px;
+        color: white;
+        background: rgb(64,199,129);
+        border: solid;
+        border-color: darkgreen;
+    }
+    .in_search
+    {
+        padding: 10px;
+        border: 2px solid black;
+    }
+    </style>
+<input class="in_search" id = "input"  placeholder="Название вакансии"></input>
+<button id="btn" class="btn_search" onclick="search();">Найти</button>
+<p id="res"></p>
+<script defer src="app.js"></script>
+
+</body>
+</html>
